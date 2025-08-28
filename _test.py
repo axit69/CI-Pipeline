@@ -1,4 +1,5 @@
 import pytest
+from app import cube, square, fifth_power
 
 def square(n):
     return n ** 2
