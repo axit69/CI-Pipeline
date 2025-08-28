@@ -1,14 +1,14 @@
 import pytest
 from app import cube, square, fifth_power
 
-def square(n):
-    return n ** 2
+# def square(n):
+#     return n ** 2
 
-def cube(n):
-    return n ** 3
+# def cube(n):
+#     return n ** 3
 
-def fifth_power(n):
-    return n ** 5
+# def fifth_power(n):
+#     return n ** 5
 
 def test_square():
     assert square(2) == 4,      "Test failed: square of 2 should be 4"

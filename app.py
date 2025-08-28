@@ -23,6 +23,13 @@ fifth_result = fifth_power(n)
 
 
 
+# display results
+st.write(f'The square of ', {square_result})
+st.write(f'The cube of  is ', {cube_result})
+st.write(f'The fifth power of  is', {fifth_result})
+
+
+
 # # get user input
 # n = st.number_input('Enter an integer:', value=1, step=1)
 
@@ -35,8 +42,3 @@ fifth_result = fifth_power(n)
 # st.write(f'The square of {n}', {square})
 # st.write(f'The cube of {n} is ', {cube})
 # st.write(f'The fifth power of {n} is', {fifth_power})
-
-# display results
-st.write(f'The square of ', {square_result})
-st.write(f'The cube of  is ', {cube_result})
-st.write(f'The fifth power of  is', {fifth_result})
