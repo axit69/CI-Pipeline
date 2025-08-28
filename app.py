@@ -14,9 +14,12 @@ def cube(n):
 def fifth_power(n):
     return n ** 5
 
-square_result = square(2)
-cube_result = cube(2)
-fifth_result = fifth_power(2)
+# # get user input
+n = st.number_input('Enter an integer:', value=1, step=1)
+
+square_result = square(n)
+cube_result = cube(n)
+fifth_result = fifth_power(n)
 
 
 
